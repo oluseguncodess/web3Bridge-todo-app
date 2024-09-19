@@ -25,6 +25,7 @@ button {
 
 .add-btn {
   background-color: #6EC207;
+  padding: 0.75em;
 }
 
 .add-btn:hover {
@@ -49,8 +50,12 @@ button {
 
 input[type="text"] {
   font-size: 1rem;
-  padding: 0.5em;
+  padding: 0.75em;
   border: 2px solid #4E31AA;
+  width: 70%;
+  max-width: 800px;
+  margin-right: 5px;
+  border-radius: 10px;
 }
 
 ol {
@@ -67,12 +72,12 @@ li {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.text {
-  flex: 1;
-}
 
 .delete-btn, .move-btn {
   padding: 8px 12px;
